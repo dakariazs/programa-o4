@@ -20,7 +20,7 @@
   <meta property="og:description" content="I have used again the magic of Google to train a visual machine learning model and turn everything into a classic game for my kids: Rock Paper Scissors."/>
   <meta property="og:image" content="https://tailwindcss.com/_next/static/media/twitter-large-card.2e0e43628f69eba639f387da72chttps://raw.githubusercontent.com/seftimie/Rock-Paper-Scissors-with-Google-Teachable-Machine/main/screens/6.jpg"/>
 
-  <title>Rock Paper Scissors with Google Teachable Machine</title>
+  <title>Pedra, Papel, Tesoura, Lagarto e Spock com Google Teachable Machine</title>
 
 
 <!-- tailwind css -->
@@ -48,7 +48,7 @@
               <h2 class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
                 Ready to play
                 <br>
-                <span class="text-indigo-600">Rock Paper Scissors?</span>
+                <span class="text-indigo-600">Pedra, Papel, Tesoura, Lagarto ou Spock?</span>
                 <br/>
                 <p class="text-base font-light text-gray-600">by <span class="text-indigo-600 font-extrabold"><a href="https://www.linkedin.com/in/eftimiesilviudaniel/" target="_blank">ESD</a></span> with love for <span class="text-indigo-600 font-extrabold"><a href="https://www.youtube.com/channel/UCHV6pF1KjgCJB4M__4ZYISg/videos" target="_blank">Karl</a></span> & Neo (Vue JS, Tailwind, Laracast's illustrations & Google Teachable Machine)</p>
               </h2>
@@ -96,6 +96,8 @@
                   <h1 class="text-6xl mt-20" v-if="humanChoose === 0">👊</h1>
                   <h1 class="text-6xl mt-20" v-else-if="humanChoose === 1">🤚</h1>
                   <h1 class="text-6xl mt-20" v-else-if="humanChoose === 2">✌️</h1>
+                  <h1 class="text-6xl mt-20" v-else-if="humanChoose === 3">🤏</h1>
+                  <h1 class="text-6xl mt-20" v-else-if="humanChoose === 4">🖖</h1>
                   <h1 class="text-6xl mt-20" v-else-if="robotChoose === -1"><img class="text-center inline" src="https://johnjorgenson.com/wp-content/uploads/2018/05/colorful-loader-gif-transparent.gif"></h1>
                   <h1 class="text-6xl mt-20" v-else></h1>
 
@@ -113,6 +115,8 @@
                   <h1 class="text-6xl mt-20" v-if="robotChoose === 0">👊</h1>
                   <h1 class="text-6xl mt-20" v-else-if="robotChoose === 1">🤚</h1>
                   <h1 class="text-6xl mt-20" v-else-if="robotChoose === 2">✌️</h1>
+                  <h1 class="text-6xl mt-20" v-else-if="robotChoose === 2">🤏</h1>
+                  <h1 class="text-6xl mt-20" v-else-if="robotChoose === 2">🖖</h1>
                   <h1 class="text-6xl mt-20" v-else-if="robotChoose === -1"><img class="text-center inline" src="img/loading.gif"></h1>
                   <h1 class="text-6xl mt-20" v-else></h1>
 
