@@ -4,30 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>👊, 🤚, ✌, 🤏 ou 🖖</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet">
+    <title>Pedra Papel Tesoura Lagarto Spock</title>
 </head>
 <body>
-  <div class="container">
-    <div class="">
+ <div class="bg-gray-200">
+          <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
 
-              <div class="devs">
-                <div class="devs-name">
-                  <p class="devs-p">Allana, Cauê, Luana e Nícolas</p>
-                </div>
-
-                <div class="devs-class">
-                  <p class="devs-p">4º ano TI - 2023 - IFRS Campus Feliz</p>
-                </div>
-                
-              </div>
-
-              <div class="title-div">
-              <h2 class="title">👊Pedra, 🤚Papel, ✌Tesoura, 🤏Lagarto ou 🖖Spock</h2></div>
+              <!-- start welcome message -->
+              <h2 class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+                Pronto para jogar
                 <br>
-                <span class="text-indigo-600">Pronto para jogar?</span>
+                <span class="text-indigo-600">Pedra Papel Tesoura Lagarto ou Spock?</span>
                 <br/>
-                
+                <p class="text-base font-light text-gray-600">por <span class="text-indigo-600 font-extrabold">Allana, Cauê, Luana e Nícolas</span> - 4º ano TI - 2023 - IFRS Campus Feliz</p>
               </h2>
               <!-- end welcome message -->
 
@@ -61,7 +51,12 @@
 
           </div>
         </div>
+        <script src="script.js">
 
+        <figure>
+          <img src="exibirImagem();" alt="">  
+        </figure>
+      </script>
 <div id="webcam-container"></div>
 <div id="label-container"></div>
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
@@ -118,9 +113,6 @@
             labelContainer.childNodes[i].innerHTML = classPrediction;
         }
     }
-</script>
-
+    </script>
 </body>
 </html>
-
-
