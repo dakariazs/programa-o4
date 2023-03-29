@@ -1,1 +1,28 @@
-//
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+
+}
+body{
+    background-color: black;
+}
+.title-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    margin: 0;
+    width: 100%;
+    background: linear-gradient(135deg, #c7c7c7, #585858);
+    border-bottom: rgb(255, 255, 255) 1px solid;
+}
+.title{
+    color: white;
+    font-family: Open Sans, sans-serif;
+}
