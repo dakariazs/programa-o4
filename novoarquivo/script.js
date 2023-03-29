@@ -1,10 +1,10 @@
 // lista de imagens
 const imagens = [
-    'imagem1.png',
-    'imagem2.png',
-    'imagem3.png',
-    'imagem4.png',
-    'imagem5.png'
+    'pedra.png',
+    'papel.png',
+    'tessoura.png',
+    'lagarto.png',
+    'spoke.png'
   ];
   
   // função para sortear um número aleatório entre 1 e 5
