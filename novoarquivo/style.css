@@ -23,3 +23,17 @@ body{
     color: white;
     font-family: Open Sans, sans-serif;
 }
+
+.devs{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.devs-name{
+    width: 50%;
+    margin-left: 1em;
+}
+
+.devs-class{
+    width: 50%;
+}
