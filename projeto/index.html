@@ -16,8 +16,8 @@
           <span class="text-indigo-600">Pedra, Papel, Tesoura, Lagarto ou Spock?</span>
           <p class="">por Allana, Cauê, Luana e Nícolas - 4º ano TI - 2023 - IFRS Campus Feliz</p>
       </div>
-      <div class="camera1">
-        <div class="camera2">
+      <div class="botao-camera1">
+        <div class="botao-camera2">
           <button type="button" onclick="init()">Permitir camera</button>
         </div>
       </div>
@@ -33,42 +33,9 @@
 
   <div class="container">
     <div class="player-side">
-          <div class="">
-
-              <!-- start control game -->
-              <div class="">
-                  <!-- start play button -->
-
-                  
-
-                  <div class="">
-                    <a href="#" v-on:click="playButton"  id="playButton" class="">
-                      Jogar
-                    </a>
-                  </div>
-                  <!-- end play button -->
-
-                  <!-- start reset button -->
-                  <div class="">
-                    <a href="#" v-on:click="resetButton" id="resetButton"  class="">
-                      Reiniciar
-                    </a>
-                  </div>
-                  <!-- end reset button -->
-              </div>
-              <!-- end control game -->
-
-          </div>
-        </div>
-
-
-
-
-
-
-
-
-
+      <h4 class="">👤 Pontuação jogador: X pts </h4>
+      <h1 class="vazio"> </h1>
+      <div class="camera">
         <script src="script.js">
 
         <figure>
@@ -132,6 +99,49 @@
         }
     }
     </script>
+    </div>
+          <div class="">
+
+              <!-- start control game -->
+              <div class="">
+                  <!-- start play button -->
+
+                  
+
+                  <div class="">
+                    <a href="#" v-on:click="playButton"  id="playButton" class="">
+                      Jogar
+                    </a>
+                  </div>
+                  <!-- end play button -->
+
+                  <!-- start reset button -->
+                  <div class="">
+                    <a href="#" v-on:click="resetButton" id="resetButton"  class="">
+                      Reiniciar
+                    </a>
+                  </div>
+                  <!-- end reset button -->
+              </div>
+              <!-- end control game -->
+
+          </div>
+        </div>
+
+
+        <div class="bot-side">
+
+
+        </div>
+
+
+
+
+
+
+
+
+        
     </div>
 </body>
 </html>

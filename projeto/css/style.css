@@ -11,14 +11,13 @@
 body,html{
     width: 100%;
     height: 100%;
-    font-family: 'Source Code Pro', monospace;
-    font-weight: bold;
 }
 .container{
     width: auto;
     height: 100%;
     display: flex;
     background: linear-gradient( to right, #1c242c 50%, #586777 50%);
+    font-family: Open Sans, sans-serif;
 }
 
 
@@ -26,6 +25,8 @@ body,html{
 header{
     display: flex;
     flex-direction: row;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
 }
 .header{
     box-sizing: border-box;
@@ -56,17 +57,17 @@ header{
     display: flex;
     flex-direction: row;
 }
-.camera1{
+.botao-camera1{
     width: 50%;
     display: flex;
     align-items: center;
     justify-items: center;
     text-align: center;
 }
-.camera2{
+.botao-camera2{
     width: 100%;
 }
-.camera2 button{
+.botao-camera2 button{
     border-color: transparent;
     border-radius: 4px;
     border: solid 0px;
@@ -77,11 +78,42 @@ header{
     box-shadow: rgb(211, 211, 211) 2px 2px 2px;
     font-size: 1em;
 }
-.camera2 button:hover{
+.botao-camera2 button:hover{
     background-color: #6671d6;
     cursor: pointer;
     transition: 150ms;
 }
 
 
+
+/*----ALL_SIDE----*/
+.vazio{
+    margin-top: 5rem;
+}
+
+
+
+
+
+
+
 /*----PLAYER_SIDE----*/
+.player-side{
+    margin: 15px;
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.camera{
+}
+
+
+
+
+
+
+/*----BOT_SIDE----*/
+.bot-side{
+    width: 50%;
+}
