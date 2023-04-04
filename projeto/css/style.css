@@ -1,9 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Comfortaa:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Comfortaa:wght@300&family=Raleway:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Comfortaa:wght@300&family=Raleway:wght@100&family=Source+Code+Pro:wght@200&display=swap');
 
 *{
@@ -32,11 +27,9 @@ header{
     padding: 3em;
     height: auto;
     background-color: white;
-    
 }
 @media all and (min-width:1167px){
     .header{
-        
         padding-right: 10%;
         padding-left: 10%;
     }
@@ -49,9 +42,8 @@ header{
     font-size: 2.5em;
 }
 .title-div span{
-    color: rgb(147, 94, 197);
+    color: #5a67d8;
     font-size: 1.5em;
-    
 }
 .title-div p{
     margin-top: 0.6em;
@@ -66,43 +58,22 @@ header{
     justify-items: center;
     text-align: center;
 }
-.camera{
+.camera2{
     width: 100%;
-    
 }
-.camera button{
+.camera2 button{
     border-color: transparent;
     border-radius: 4px;
     border: solid 0px;
-    padding: 10px;
-    background-color: rgb(147, 94, 197);
+    padding: 15px;
+    background-color: #5a67d8;
     color: white;
     font-family: Open Sans, sans-serif;
     box-shadow: rgb(211, 211, 211) 2px 2px 2px;
+    font-size: 1em;
 }
-.camera button:hover{
-    background-color: rgb(163, 119, 204);
+.camera2 button:hover{
+    background-color: #6671d6;
     cursor: pointer;
-}
-
-
-
-
-.title{
-    color: white;
-    font-family: Open Sans, sans-serif;
-}
-
-.devs{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-}
-.devs-name{
-    width: 50%;
-    margin-left: 1em;
-}
-
-.devs-class{
-    width: 50%;
+    transition: 150ms;
 }
