@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Comfortaa:wght@300&family=Raleway:wght@100&family=Source+Code+Pro:wght@200&display=swap');
+
+
+/*----GERAL----*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: auto;
+    height: 100%;
+    display: flex;
+    background: linear-gradient( to right, #1c242c 50%, #586777 50%);
+    font-family: Open Sans, sans-serif;
+}
+
+
+/*----HEADER----*/
+header{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+.header{
+    box-sizing: border-box;
+    padding: 3em;
+    height: auto;
+    background-color: white;
+    border-bottom: solid #5a67d8 1px;
+}
+@media all and (min-width:1167px){
+    .header{
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+}
+.title-div{
+    margin: 0em 2em;
+    width: 50%;
+}
+.title-div h2{
+    font-size: 2.5em;
+}
+.title-div span{
+    color: #5a67d8;
+    font-size: 1.5em;
+}
+.title-div p{
+    margin-top: 0.6em;
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: row;
+}
+.botao-camera1{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+.botao-camera2{
+    width: 100%;
+}
+.botao-camera2 button{
+    border-color: transparent;
+    border-radius: 4px;
+    border: solid 0px;
+    padding: 15px;
+    background-color: #5a67d8;
+    color: white;
+    font-family: Open Sans, sans-serif;
+    box-shadow: rgb(211, 211, 211) 2px 2px 2px;
+    font-size: 1em;
+}
+.botao-camera2 button:hover{
+    background-color: #6671d6;
+    cursor: pointer;
+    transition: 150ms;
+}
+
+
+
+/*----ALL_SIDE----*/
+.vazio{
+    margin-top: 5rem;
+}
+
+
+
+
+
+
+
+/*----PLAYER_SIDE----*/
+.player-side{
+    margin: 15px;
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.camera{
+}
+
+
+
+
+
+
+/*----BOT_SIDE----*/
+.bot-side{
+    margin: 15px;
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
