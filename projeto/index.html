@@ -17,9 +17,36 @@
           <p class="">por Allana, Cauê, Luana e Nícolas - 4º ano TI - 2023 - IFRS Campus Feliz</p>
       </div>
       <div class="botao-camera1">
-        <div class="botao-camera2">
-          <button type="button" onclick="init()">Permitir camera</button>
-        </div>
+        
+        <div class="">
+
+          <!-- start control game -->
+          <div class="">
+              <!-- start play button -->
+
+              
+
+              <div class="">
+                <a href="#" v-on:click="playButton"  id="playButton" class="">
+                  Jogar
+                </a>
+              </div>
+              <!-- end play button -->
+<hr>
+              <!-- start reset button -->
+              <div class="">
+                <a href="#" v-on:click="resetButton" id="resetButton"  class="">
+                  Reiniciar
+                </a>
+              </div>
+              <!-- end reset button -->
+          </div>
+          <!-- end control game -->
+
+      </div>
+      <div class="botao-camera2">
+        <button type="button" onclick="init()">Permitir camera</button>
+      </div>
       </div>
     </header>
 </div>
@@ -42,7 +69,7 @@
           <img src="exibirImagem();" alt=""></img>
         </figure>
       </script>
-<div id="webcam-container"></div>
+<div class="webcam" id="webcam-container"></div>
 <div id="label-container"></div>
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
@@ -69,7 +96,7 @@
 
         // Convenience function to setup a webcam
         const flip = true; // whether to flip the webcam
-        webcam = new tmImage.Webcam(200, 200, flip); // width, height, flip
+        webcam = new tmImage.Webcam(300, 300, flip); // width, height, flip
         await webcam.setup(); // request access to the webcam
         await webcam.play();
         window.requestAnimationFrame(loop);
@@ -100,32 +127,7 @@
     }
     </script>
     </div>
-          <div class="">
-
-              <!-- start control game -->
-              <div class="">
-                  <!-- start play button -->
-
-                  
-
-                  <div class="">
-                    <a href="#" v-on:click="playButton"  id="playButton" class="">
-                      Jogar
-                    </a>
-                  </div>
-                  <!-- end play button -->
-
-                  <!-- start reset button -->
-                  <div class="">
-                    <a href="#" v-on:click="resetButton" id="resetButton"  class="">
-                      Reiniciar
-                    </a>
-                  </div>
-                  <!-- end reset button -->
-              </div>
-              <!-- end control game -->
-
-          </div>
+          
         </div>
 
 
